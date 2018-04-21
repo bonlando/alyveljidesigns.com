@@ -1,0 +1,41 @@
+// colours
+
+$teal: #038384;
+
+$primary:       $teal !default;
+// stylelint-disable
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$light: $gray-500;
+$med: $gray-800;
+$dark: black;
+
+// elements
+
+$border: solid 7px $teal;
+$white-theme-trans:  rgba(255,255,255,0.8);
+$light-theme-trans:  rgba(170,170,170,0.8);
+$med-theme-trans:   rgba(100,100,100,.8);
+$dark-theme-trans:  rgba(0,0,0,0.8);
+
+
+
+
+// fonts
+
+$font-family-sans-serif: "filson-pro",sans-serif;
+$font-weight-light:           200 !default;
+$font-weight-normal:          300 !default;
+$font-weight-bold:            700 !default;
+$font-weight-base: $font-weight-light;
+$headings-font-family:  bauer-bodoni, serif;

@@ -1,0 +1,48 @@
+.nav {
+  @include media-breakpoint-up(md) {
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+  }
+
+  li {
+    // width: 100%;
+    justify-content: center;
+
+    a.nav-link {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+  }
+}
+.banner { 
+   padding-bottom: 15px;
+   border-bottom: solid 5px black;
+}
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+  color: black;
+}
+
+.brand {
+  text-align: center;
+  display: block;
+  color: black;
+   margin-bottom: 25px;
+   margin-top: 25px;
+
+   img { 
+     max-width: 40%;
+     @include media-breakpoint-up(md) {
+    max-width: 70px; 
+    }
+    
+    }
+} 

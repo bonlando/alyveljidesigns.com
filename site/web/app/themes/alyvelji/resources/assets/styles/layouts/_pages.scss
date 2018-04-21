@@ -1,0 +1,139 @@
+// front page
+.front-banner {
+    position: relative;
+.header-content { 
+    h1 { color: white;
+    @include media-breakpoint-up(md) {
+    font-size: 3rem; margin-bottom: 0px;
+    }
+    }
+    p { color: white; padding-bottom: 0px; margin-bottom: 0px; font-size: 1.2rem; }
+    @include media-breakpoint-up(md) {
+        left: 0px;
+        background-color: black;
+        border-bottom: $teal solid 10px;
+        padding: 20px 40px 20px 200px;
+        position: absolute;
+        top: 15%;
+        left: 0;
+    
+    }
+    
+}
+}
+.promo-shot {
+        @include media-breakpoint-up(md) {
+            margin-top: -11rem;
+            padding: 3rem 3rem 0 3rem;
+            background-color: white;
+        }
+    }
+
+
+
+.section-gray { 
+    background-color: $gray-500;
+}    
+
+
+
+// page elements
+
+.section-title { 
+
+    h2, h3 { padding-bottom: 0px; margin-bottom: 0px; color: white; }
+    background-color: black;
+    h2 { @extend .h1; }
+    // border-bottom: $border;
+}
+
+// tiles
+
+.image-tile {
+    position: relative;
+    overflow: hidden;
+    .image-tile-content-wrap {
+        
+        
+        padding: 2rem;
+      
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+        width: 50%;
+        height: auto;
+       
+        border-bottom: $border;
+        
+    }
+}
+
+.white-theme-trans {
+background-color: $white-theme-trans;
+h3, p { color: black;  }
+}
+
+.light-theme-trans {
+background-color: $light-theme-trans;
+h3, p { color: $gray-800;  }
+}
+.med-theme-trans {
+background-color: $med-theme-trans;
+h3, p { color: white;  }
+}
+.dark-theme-trans {
+ background-color: $dark-theme-trans;
+ h3, p { color: white;  }
+}
+.teal-border { 
+border-bottom: $border;
+}
+
+.section-light {
+background-color: $light;
+}
+
+.section-med {
+background-color: $med;  
+}
+
+.section-dark {
+background-color:  $dark; 
+h1,h2,h3,p,li { color: white; }
+}
+
+.awards-container {
+
+    @include media-breakpoint-up(md) {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+}
+
+.main-content {
+    @include media-breakpoint-up(md) {
+        margin-top: -10rem;
+        background-color: white;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding: 35px;
+    }
+}
+
+.main {
+    @include media-breakpoint-up(md) {
+    // margin-top: -10rem;
+    // background-color: white;
+    // overflow: hidden;
+    // display: block;
+    // position: relative;
+    // padding: 35px;
+    }
+}
+
+.page-top-header { 
+    margin-top: -10rem;
+}
