@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "327dfc5c0193e2ce0d98bd111f24fab8",
+    "content-hash": "da0e1ef3e48f653952ada0847b1bb942",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,40 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "fahim-spurbee/wp-shift-db",
+            "version": "1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fahimxyz/wp-shift-db.git",
+                "reference": "c782f6907cced0bfc2dadadbf55283630fd3b11d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fahimxyz/wp-shift-db/zipball/c782f6907cced0bfc2dadadbf55283630fd3b11d",
+                "reference": "c782f6907cced0bfc2dadadbf55283630fd3b11d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.5",
+                "php": ">=5.3.7"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Shift DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/fahim-spurbee/wp-shift-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-shift-db"
+            ],
+            "abandoned": "https://github.com/fahimxyz/wp-shift-db",
+            "time": "2018-01-30T12:55:59+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
